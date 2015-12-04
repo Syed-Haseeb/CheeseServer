@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: bf7091633d80fda448a1dc6157544fc8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Back_Tail1
+    100002: backbone
+    100004: backbone_004
+    100006: Ears_lower_left
+    100008: Ears_lower_right
+    100010: Ears_upper_left
+    100012: Ears_upper_right
+    100014: Head_snout
+    100016: Head_upper
+    100018: Jaw_lower
+    100020: Jaw_upper
+    100022: left2thigh
+    100024: left_foot
+    100026: left_front_foot
+    100028: left_thigh_001
+    100030: lfleg
+    100032: lfrontthigh
+    100034: //RootNode
+    100036: Mouse_Model
+    100038: Mouse_Model_001
+    100040: Mouse_Skeleton
+    100042: Neck
+    100044: rfleg
+    100046: rfrontthigh
+    100048: right2thigh
+    100050: right_foot
+    100052: right_front_foot
+    100054: right_thigh
+    100056: tail_lower
+    100058: tail_upper
+    400000: Back_Tail1
+    400002: backbone
+    400004: backbone_004
+    400006: Ears_lower_left
+    400008: Ears_lower_right
+    400010: Ears_upper_left
+    400012: Ears_upper_right
+    400014: Head_snout
+    400016: Head_upper
+    400018: Jaw_lower
+    400020: Jaw_upper
+    400022: left2thigh
+    400024: left_foot
+    400026: left_front_foot
+    400028: left_thigh_001
+    400030: lfleg
+    400032: lfrontthigh
+    400034: //RootNode
+    400036: Mouse_Model
+    400038: Mouse_Model_001
+    400040: Mouse_Skeleton
+    400042: Neck
+    400044: rfleg
+    400046: rfrontthigh
+    400048: right2thigh
+    400050: right_foot
+    400052: right_front_foot
+    400054: right_thigh
+    400056: tail_lower
+    400058: tail_upper
+    4300000: Mouse_Model_001
+    4300002: Mouse_Model
+    7400000: WaitAnim
+    7400002: Mouse_SkeletonAction_001
+    7400004: Slam_down
+    7400006: Searching
+    7400008: 66
+    7400010: Default Take3
+    7400012: Default Take4
+    7400014: M_look
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Mouse_Model
+    13700002: Mouse_Model_001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WaitAnim
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mouse_Model
+        weight: 1
+      - path: Mouse_Model_001
+        weight: 1
+      - path: Mouse_Skeleton
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1/tail_upper
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1/tail_upper/tail_lower
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1/tail_upper/tail_lower/backbone_004
+        weight: 1
+      - path: Mouse_Skeleton/backbone
+        weight: 1
+      - path: Mouse_Skeleton/backbone/lfrontthigh
+        weight: 1
+      - path: Mouse_Skeleton/backbone/lfrontthigh/lfleg
+        weight: 1
+      - path: Mouse_Skeleton/backbone/lfrontthigh/lfleg/left_front_foot
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_left
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_left/Ears_upper_left
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_right
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_right/Ears_upper_right
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Head_upper
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Head_upper/Head_snout
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Jaw_upper
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Jaw_upper/Jaw_lower
+        weight: 1
+      - path: Mouse_Skeleton/backbone/rfrontthigh
+        weight: 1
+      - path: Mouse_Skeleton/backbone/rfrontthigh/rfleg
+        weight: 1
+      - path: Mouse_Skeleton/backbone/rfrontthigh/rfleg/right_front_foot
+        weight: 1
+      - path: Mouse_Skeleton/left_thigh_001
+        weight: 1
+      - path: Mouse_Skeleton/left_thigh_001/left2thigh
+        weight: 1
+      - path: Mouse_Skeleton/left_thigh_001/left2thigh/left_foot
+        weight: 1
+      - path: Mouse_Skeleton/right_thigh
+        weight: 1
+      - path: Mouse_Skeleton/right_thigh/right2thigh
+        weight: 1
+      - path: Mouse_Skeleton/right_thigh/right2thigh/right_foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Slam_down
+      takeName: Default Take
+      firstFrame: 21
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mouse_Model
+        weight: 1
+      - path: Mouse_Model_001
+        weight: 1
+      - path: Mouse_Skeleton
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1/tail_upper
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1/tail_upper/tail_lower
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1/tail_upper/tail_lower/backbone_004
+        weight: 1
+      - path: Mouse_Skeleton/backbone
+        weight: 1
+      - path: Mouse_Skeleton/backbone/lfrontthigh
+        weight: 1
+      - path: Mouse_Skeleton/backbone/lfrontthigh/lfleg
+        weight: 1
+      - path: Mouse_Skeleton/backbone/lfrontthigh/lfleg/left_front_foot
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_left
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_left/Ears_upper_left
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_right
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_right/Ears_upper_right
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Head_upper
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Head_upper/Head_snout
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Jaw_upper
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Jaw_upper/Jaw_lower
+        weight: 1
+      - path: Mouse_Skeleton/backbone/rfrontthigh
+        weight: 1
+      - path: Mouse_Skeleton/backbone/rfrontthigh/rfleg
+        weight: 1
+      - path: Mouse_Skeleton/backbone/rfrontthigh/rfleg/right_front_foot
+        weight: 1
+      - path: Mouse_Skeleton/left_thigh_001
+        weight: 1
+      - path: Mouse_Skeleton/left_thigh_001/left2thigh
+        weight: 1
+      - path: Mouse_Skeleton/left_thigh_001/left2thigh/left_foot
+        weight: 1
+      - path: Mouse_Skeleton/right_thigh
+        weight: 1
+      - path: Mouse_Skeleton/right_thigh/right2thigh
+        weight: 1
+      - path: Mouse_Skeleton/right_thigh/right2thigh/right_foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: M_look
+      takeName: Default Take
+      firstFrame: 31
+      lastFrame: 56
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Mouse_Model
+        weight: 1
+      - path: Mouse_Model_001
+        weight: 1
+      - path: Mouse_Skeleton
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1/tail_upper
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1/tail_upper/tail_lower
+        weight: 1
+      - path: Mouse_Skeleton/Back_Tail1/tail_upper/tail_lower/backbone_004
+        weight: 1
+      - path: Mouse_Skeleton/backbone
+        weight: 1
+      - path: Mouse_Skeleton/backbone/lfrontthigh
+        weight: 1
+      - path: Mouse_Skeleton/backbone/lfrontthigh/lfleg
+        weight: 1
+      - path: Mouse_Skeleton/backbone/lfrontthigh/lfleg/left_front_foot
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_left
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_left/Ears_upper_left
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_right
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Ears_lower_right/Ears_upper_right
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Head_upper
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Head_upper/Head_snout
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Jaw_upper
+        weight: 1
+      - path: Mouse_Skeleton/backbone/Neck/Jaw_upper/Jaw_lower
+        weight: 1
+      - path: Mouse_Skeleton/backbone/rfrontthigh
+        weight: 1
+      - path: Mouse_Skeleton/backbone/rfrontthigh/rfleg
+        weight: 1
+      - path: Mouse_Skeleton/backbone/rfrontthigh/rfleg/right_front_foot
+        weight: 1
+      - path: Mouse_Skeleton/left_thigh_001
+        weight: 1
+      - path: Mouse_Skeleton/left_thigh_001/left2thigh
+        weight: 1
+      - path: Mouse_Skeleton/left_thigh_001/left2thigh/left_foot
+        weight: 1
+      - path: Mouse_Skeleton/right_thigh
+        weight: 1
+      - path: Mouse_Skeleton/right_thigh/right2thigh
+        weight: 1
+      - path: Mouse_Skeleton/right_thigh/right2thigh/right_foot
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a6b0cbd1f7eb853478193df00845af5f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Cheese: {fileID: 5439042, guid: 55f31e455e2db3f4aafd554fd741925b, type: 2}
+  - Marble: {fileID: 5468188, guid: 4fa4d77e3409b0e4fb6fc0e41e92894f, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
